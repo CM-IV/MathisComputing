@@ -30,7 +30,7 @@ function submitForm(event)
 {
     event.preventDefault();//prevent from submitting info to HTML page
 
-    //we need to get the input value and send them to Google Firebase
+    //get the input value and send them to Google Firebase
     //get values
     var name = getInputValues('name');
     var email = getInputValues('email');
