@@ -11,6 +11,9 @@
 
 #particles-js
 {
-    height: 90%;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
