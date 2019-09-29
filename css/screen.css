@@ -1,5 +1,9 @@
 /*Styles*/
 /*This is for the contact form alert class*/
+body, html {
+    height: 100%;
+}
+
 .alert{
     text-align: center;
     padding: 10px;
@@ -9,7 +13,22 @@
     display: none;
 }
 
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
 #particles-js{
-    width:max-content;
-    height:max-content;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0;
 }
