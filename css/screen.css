@@ -1,8 +1,7 @@
 /*Styles*/
 /*This is for the contact form alert class*/
-body, html {
-    height: 100%;
-}
+/*This style sheet also helps configure particles.js*/
+
 
 .alert{
     text-align: center;
@@ -13,7 +12,7 @@ body, html {
     display: none;
 }
 
-#particles-js canvas {
+/*#particles-js canvas {
     display: block;
     vertical-align: bottom;
     -webkit-transform: scale(1);
@@ -22,13 +21,20 @@ body, html {
     opacity: 1;
     -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
     transition: opacity .8s ease, transform 1.4s ease
-}
+}*/
 
 #particles-js{
     width: 100%;
     height: 100%;
     position: fixed;
-    z-index: -10;
-    top: 0;
-    left: 0;
+}
+
+
+#location{
+    width: 100%;
+    position: relative;
+}
+
+#footer, #contact-form{
+    position: relative;
 }
