@@ -9,6 +9,7 @@
     display: none;
 }
 
-body {
-    background-color: white;
+#particles-js{
+    width:max-content;
+    height:max-content;
 }
