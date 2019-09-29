@@ -66,7 +66,3 @@ function saveMessage(name, email, comment)
         comment, comment
     })
 }
-
-particlesJS.load('particles-js', 'json/particlesjs-config.json', function() {
-    console.log('callback - particles.js config loaded');
-});
